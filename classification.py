@@ -46,4 +46,4 @@ model.compile(loss='binary_crossentropy',
               optimizer='adam',
               metrics=['accuracy'])
 
-model.fit(X, y, batch_size=32, epochs=3, validation_split=0.3)
+model.fit(X, y, batch_size=32, epochs=10, validation_split=0.3)
